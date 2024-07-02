@@ -12,6 +12,8 @@
 		4DEC4A742C34274300753C5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DEC4A732C34274300753C5C /* Assets.xcassets */; };
 		4DEC4A782C34274300753C5C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DEC4A772C34274300753C5C /* Preview Assets.xcassets */; };
 		4DEC4A822C34274400753C5C /* EngineYardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC4A812C34274400753C5C /* EngineYardTests.swift */; };
+		4DEC4A9C2C34296C00753C5C /* Generation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC4A9B2C34296C00753C5C /* Generation.swift */; };
+		4DEC4A9E2C342A5A00753C5C /* EngineColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC4A9D2C342A5A00753C5C /* EngineColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,8 @@
 		4DEC4A772C34274300753C5C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4DEC4A7D2C34274400753C5C /* EngineYardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EngineYardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DEC4A812C34274400753C5C /* EngineYardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineYardTests.swift; sourceTree = "<group>"; };
+		4DEC4A9B2C34296C00753C5C /* Generation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generation.swift; sourceTree = "<group>"; };
+		4DEC4A9D2C342A5A00753C5C /* EngineColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 		4DEC4A6C2C34274200753C5C /* EngineYard */ = {
 			isa = PBXGroup;
 			children = (
+				4DEC4A9A2C34295200753C5C /* Game */,
 				4DEC4A6D2C34274200753C5C /* EngineYardApp.swift */,
 				4DEC4A6F2C34274200753C5C /* ContentView.swift */,
 				4DEC4A732C34274300753C5C /* Assets.xcassets */,
@@ -97,6 +102,15 @@
 				4DEC4A812C34274400753C5C /* EngineYardTests.swift */,
 			);
 			path = EngineYardTests;
+			sourceTree = "<group>";
+		};
+		4DEC4A9A2C34295200753C5C /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				4DEC4A9B2C34296C00753C5C /* Generation.swift */,
+				4DEC4A9D2C342A5A00753C5C /* EngineColor.swift */,
+			);
+			path = Game;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +214,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DEC4A702C34274200753C5C /* ContentView.swift in Sources */,
+				4DEC4A9E2C342A5A00753C5C /* EngineColor.swift in Sources */,
+				4DEC4A9C2C34296C00753C5C /* Generation.swift in Sources */,
 				4DEC4A6E2C34274200753C5C /* EngineYardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
