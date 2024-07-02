@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		4DEC4A6E2C34274200753C5C /* EngineYardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC4A6D2C34274200753C5C /* EngineYardApp.swift */; };
 		4DEC4A702C34274200753C5C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC4A6F2C34274200753C5C /* ContentView.swift */; };
-		4DEC4A722C34274200753C5C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC4A712C34274200753C5C /* Item.swift */; };
 		4DEC4A742C34274300753C5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DEC4A732C34274300753C5C /* Assets.xcassets */; };
 		4DEC4A782C34274300753C5C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DEC4A772C34274300753C5C /* Preview Assets.xcassets */; };
 		4DEC4A822C34274400753C5C /* EngineYardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC4A812C34274400753C5C /* EngineYardTests.swift */; };
@@ -29,7 +28,6 @@
 		4DEC4A6A2C34274200753C5C /* EngineYard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EngineYard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DEC4A6D2C34274200753C5C /* EngineYardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineYardApp.swift; sourceTree = "<group>"; };
 		4DEC4A6F2C34274200753C5C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		4DEC4A712C34274200753C5C /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		4DEC4A732C34274300753C5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DEC4A752C34274300753C5C /* EngineYard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EngineYard.entitlements; sourceTree = "<group>"; };
 		4DEC4A772C34274300753C5C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -78,7 +76,6 @@
 			children = (
 				4DEC4A6D2C34274200753C5C /* EngineYardApp.swift */,
 				4DEC4A6F2C34274200753C5C /* ContentView.swift */,
-				4DEC4A712C34274200753C5C /* Item.swift */,
 				4DEC4A732C34274300753C5C /* Assets.xcassets */,
 				4DEC4A752C34274300753C5C /* EngineYard.entitlements */,
 				4DEC4A762C34274300753C5C /* Preview Content */,
@@ -203,7 +200,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DEC4A702C34274200753C5C /* ContentView.swift in Sources */,
-				4DEC4A722C34274200753C5C /* Item.swift in Sources */,
 				4DEC4A6E2C34274200753C5C /* EngineYardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
