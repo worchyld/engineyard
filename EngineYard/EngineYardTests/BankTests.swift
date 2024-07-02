@@ -24,6 +24,19 @@ final class BankTests: XCTestCase {
         }
     }
     
+    func testDebitOK() throws {
+        let bank = Bank(_balance: 100)
+        let result = bank.debit(50)
+        let expected = 50
+        
+        switch result {
+        case .success:
+            XCTAssertEqual(bank.balance, expected, "Numbers are not equal")
+        case .failure(let err):
+            throw err as Error
+        }
+    }
+    
 //    func testCreditShouldFailIfLessThanZero() throws {
 //        let bank = Bank(_balance: 0)
 //        let result = bank.credit(-100)
