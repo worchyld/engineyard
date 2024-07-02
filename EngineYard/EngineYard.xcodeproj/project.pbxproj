@@ -30,6 +30,7 @@
 		4DEC4ABD2C342AAF00753C5C /* dieShuffle1.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 4DEC4AAD2C342AAF00753C5C /* dieShuffle1.ogg */; };
 		4DEC4ABE2C342AAF00753C5C /* cardSlide1.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 4DEC4AAE2C342AAF00753C5C /* cardSlide1.ogg */; };
 		4DEC4ABF2C342AAF00753C5C /* cardSlide3.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 4DEC4AAF2C342AAF00753C5C /* cardSlide3.ogg */; };
+		4DEC4AC12C342AD900753C5C /* Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC4AC02C342AD900753C5C /* Sounds.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		4DEC4AAD2C342AAF00753C5C /* dieShuffle1.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = dieShuffle1.ogg; sourceTree = "<group>"; };
 		4DEC4AAE2C342AAF00753C5C /* cardSlide1.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = cardSlide1.ogg; sourceTree = "<group>"; };
 		4DEC4AAF2C342AAF00753C5C /* cardSlide3.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = cardSlide3.ogg; sourceTree = "<group>"; };
+		4DEC4AC02C342AD900753C5C /* Sounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sounds.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 				4DEC4AAD2C342AAF00753C5C /* dieShuffle1.ogg */,
 				4DEC4AA52C342AAF00753C5C /* dieThrow1.ogg */,
 				4DEC4AA12C342AAF00753C5C /* dieThrow2.ogg */,
+				4DEC4AC02C342AD900753C5C /* Sounds.swift */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 			files = (
 				4DEC4A702C34274200753C5C /* ContentView.swift in Sources */,
 				4DEC4A9E2C342A5A00753C5C /* EngineColor.swift in Sources */,
+				4DEC4AC12C342AD900753C5C /* Sounds.swift in Sources */,
 				4DEC4A9C2C34296C00753C5C /* Generation.swift in Sources */,
 				4DEC4A6E2C34274200753C5C /* EngineYardApp.swift in Sources */,
 			);
