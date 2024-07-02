@@ -34,6 +34,8 @@
 		4DEC4AC72C342B9200753C5C /* Locomotive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC4AC62C342B9200753C5C /* Locomotive.swift */; };
 		4DEC4ACB2C342CC400753C5C /* GameBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC4ACA2C342CC400753C5C /* GameBoard.swift */; };
 		4DEC4ACD2C342CFD00753C5C /* GameSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC4ACC2C342CFD00753C5C /* GameSetting.swift */; };
+		4DEC4AD12C342FBA00753C5C /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC4AD02C342FBA00753C5C /* Player.swift */; };
+		4DEC4AD32C34300B00753C5C /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC4AD22C34300B00753C5C /* GameModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +79,8 @@
 		4DEC4AC62C342B9200753C5C /* Locomotive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locomotive.swift; sourceTree = "<group>"; };
 		4DEC4ACA2C342CC400753C5C /* GameBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoard.swift; sourceTree = "<group>"; };
 		4DEC4ACC2C342CFD00753C5C /* GameSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSetting.swift; sourceTree = "<group>"; };
+		4DEC4AD02C342FBA00753C5C /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		4DEC4AD22C34300B00753C5C /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,8 +155,10 @@
 				4DEC4A9B2C34296C00753C5C /* Generation.swift */,
 				4DEC4A9D2C342A5A00753C5C /* EngineColor.swift */,
 				4DEC4AC62C342B9200753C5C /* Locomotive.swift */,
+				4DEC4AD22C34300B00753C5C /* GameModel.swift */,
 				4DEC4ACA2C342CC400753C5C /* GameBoard.swift */,
 				4DEC4ACC2C342CFD00753C5C /* GameSetting.swift */,
+				4DEC4AD02C342FBA00753C5C /* Player.swift */,
 			);
 			path = Game;
 			sourceTree = "<group>";
@@ -302,8 +308,10 @@
 				4DEC4AC12C342AD900753C5C /* Sounds.swift in Sources */,
 				4DEC4ACB2C342CC400753C5C /* GameBoard.swift in Sources */,
 				4DEC4ACD2C342CFD00753C5C /* GameSetting.swift in Sources */,
+				4DEC4AD32C34300B00753C5C /* GameModel.swift in Sources */,
 				4DEC4A9C2C34296C00753C5C /* Generation.swift in Sources */,
 				4DEC4AC72C342B9200753C5C /* Locomotive.swift in Sources */,
+				4DEC4AD12C342FBA00753C5C /* Player.swift in Sources */,
 				4DEC4A6E2C34274200753C5C /* EngineYardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
