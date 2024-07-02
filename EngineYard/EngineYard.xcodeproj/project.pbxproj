@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D93722D2C3476300067E5F6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D93722C2C3476300067E5F6 /* Constants.swift */; };
+		4D93722F2C34766C0067E5F6 /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D93722E2C34766C0067E5F6 /* Bank.swift */; };
 		4DEC4A6E2C34274200753C5C /* EngineYardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC4A6D2C34274200753C5C /* EngineYardApp.swift */; };
 		4DEC4A702C34274200753C5C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC4A6F2C34274200753C5C /* ContentView.swift */; };
 		4DEC4A742C34274300753C5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DEC4A732C34274300753C5C /* Assets.xcassets */; };
@@ -49,6 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D93722C2C3476300067E5F6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4D93722E2C34766C0067E5F6 /* Bank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
 		4DEC4A6A2C34274200753C5C /* EngineYard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EngineYard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DEC4A6D2C34274200753C5C /* EngineYardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineYardApp.swift; sourceTree = "<group>"; };
 		4DEC4A6F2C34274200753C5C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -159,6 +163,8 @@
 				4DEC4ACA2C342CC400753C5C /* GameBoard.swift */,
 				4DEC4ACC2C342CFD00753C5C /* GameSetting.swift */,
 				4DEC4AD02C342FBA00753C5C /* Player.swift */,
+				4D93722C2C3476300067E5F6 /* Constants.swift */,
+				4D93722E2C34766C0067E5F6 /* Bank.swift */,
 			);
 			path = Game;
 			sourceTree = "<group>";
@@ -304,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DEC4A702C34274200753C5C /* ContentView.swift in Sources */,
+				4D93722D2C3476300067E5F6 /* Constants.swift in Sources */,
 				4DEC4A9E2C342A5A00753C5C /* EngineColor.swift in Sources */,
 				4DEC4AC12C342AD900753C5C /* Sounds.swift in Sources */,
 				4DEC4ACB2C342CC400753C5C /* GameBoard.swift in Sources */,
@@ -311,6 +318,7 @@
 				4DEC4AD32C34300B00753C5C /* GameModel.swift in Sources */,
 				4DEC4A9C2C34296C00753C5C /* Generation.swift in Sources */,
 				4DEC4AC72C342B9200753C5C /* Locomotive.swift in Sources */,
+				4D93722F2C34766C0067E5F6 /* Bank.swift in Sources */,
 				4DEC4AD12C342FBA00753C5C /* Player.swift in Sources */,
 				4DEC4A6E2C34274200753C5C /* EngineYardApp.swift in Sources */,
 			);
