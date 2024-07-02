@@ -14,6 +14,22 @@
 		4DEC4A822C34274400753C5C /* EngineYardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC4A812C34274400753C5C /* EngineYardTests.swift */; };
 		4DEC4A9C2C34296C00753C5C /* Generation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC4A9B2C34296C00753C5C /* Generation.swift */; };
 		4DEC4A9E2C342A5A00753C5C /* EngineColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC4A9D2C342A5A00753C5C /* EngineColor.swift */; };
+		4DEC4AB02C342AAF00753C5C /* cardPlace3.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 4DEC4AA02C342AAF00753C5C /* cardPlace3.ogg */; };
+		4DEC4AB12C342AAF00753C5C /* dieThrow2.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 4DEC4AA12C342AAF00753C5C /* dieThrow2.ogg */; };
+		4DEC4AB22C342AAF00753C5C /* cardSlide8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4DEC4AA22C342AAF00753C5C /* cardSlide8.wav */; };
+		4DEC4AB32C342AAF00753C5C /* chipsCollide1.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 4DEC4AA32C342AAF00753C5C /* chipsCollide1.ogg */; };
+		4DEC4AB42C342AAF00753C5C /* chipsCollide3.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 4DEC4AA42C342AAF00753C5C /* chipsCollide3.ogg */; };
+		4DEC4AB52C342AAF00753C5C /* dieThrow1.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 4DEC4AA52C342AAF00753C5C /* dieThrow1.ogg */; };
+		4DEC4AB62C342AAF00753C5C /* cardPlace1.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 4DEC4AA62C342AAF00753C5C /* cardPlace1.ogg */; };
+		4DEC4AB72C342AAF00753C5C /* cardSlide1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4DEC4AA72C342AAF00753C5C /* cardSlide1.wav */; };
+		4DEC4AB82C342AAF00753C5C /* chipsCollide2.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 4DEC4AA82C342AAF00753C5C /* chipsCollide2.ogg */; };
+		4DEC4AB92C342AAF00753C5C /* cardSlide2.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 4DEC4AA92C342AAF00753C5C /* cardSlide2.ogg */; };
+		4DEC4ABA2C342AAF00753C5C /* Birdy_Note5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4DEC4AAA2C342AAF00753C5C /* Birdy_Note5.wav */; };
+		4DEC4ABB2C342AAF00753C5C /* cardPlace2.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 4DEC4AAB2C342AAF00753C5C /* cardPlace2.ogg */; };
+		4DEC4ABC2C342AAF00753C5C /* Birdy_Notification1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4DEC4AAC2C342AAF00753C5C /* Birdy_Notification1.wav */; };
+		4DEC4ABD2C342AAF00753C5C /* dieShuffle1.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 4DEC4AAD2C342AAF00753C5C /* dieShuffle1.ogg */; };
+		4DEC4ABE2C342AAF00753C5C /* cardSlide1.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 4DEC4AAE2C342AAF00753C5C /* cardSlide1.ogg */; };
+		4DEC4ABF2C342AAF00753C5C /* cardSlide3.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 4DEC4AAF2C342AAF00753C5C /* cardSlide3.ogg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +53,22 @@
 		4DEC4A812C34274400753C5C /* EngineYardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineYardTests.swift; sourceTree = "<group>"; };
 		4DEC4A9B2C34296C00753C5C /* Generation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generation.swift; sourceTree = "<group>"; };
 		4DEC4A9D2C342A5A00753C5C /* EngineColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineColor.swift; sourceTree = "<group>"; };
+		4DEC4AA02C342AAF00753C5C /* cardPlace3.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = cardPlace3.ogg; sourceTree = "<group>"; };
+		4DEC4AA12C342AAF00753C5C /* dieThrow2.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = dieThrow2.ogg; sourceTree = "<group>"; };
+		4DEC4AA22C342AAF00753C5C /* cardSlide8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cardSlide8.wav; sourceTree = "<group>"; };
+		4DEC4AA32C342AAF00753C5C /* chipsCollide1.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = chipsCollide1.ogg; sourceTree = "<group>"; };
+		4DEC4AA42C342AAF00753C5C /* chipsCollide3.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = chipsCollide3.ogg; sourceTree = "<group>"; };
+		4DEC4AA52C342AAF00753C5C /* dieThrow1.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = dieThrow1.ogg; sourceTree = "<group>"; };
+		4DEC4AA62C342AAF00753C5C /* cardPlace1.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = cardPlace1.ogg; sourceTree = "<group>"; };
+		4DEC4AA72C342AAF00753C5C /* cardSlide1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cardSlide1.wav; sourceTree = "<group>"; };
+		4DEC4AA82C342AAF00753C5C /* chipsCollide2.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = chipsCollide2.ogg; sourceTree = "<group>"; };
+		4DEC4AA92C342AAF00753C5C /* cardSlide2.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = cardSlide2.ogg; sourceTree = "<group>"; };
+		4DEC4AAA2C342AAF00753C5C /* Birdy_Note5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Birdy_Note5.wav; sourceTree = "<group>"; };
+		4DEC4AAB2C342AAF00753C5C /* cardPlace2.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = cardPlace2.ogg; sourceTree = "<group>"; };
+		4DEC4AAC2C342AAF00753C5C /* Birdy_Notification1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Birdy_Notification1.wav; sourceTree = "<group>"; };
+		4DEC4AAD2C342AAF00753C5C /* dieShuffle1.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = dieShuffle1.ogg; sourceTree = "<group>"; };
+		4DEC4AAE2C342AAF00753C5C /* cardSlide1.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = cardSlide1.ogg; sourceTree = "<group>"; };
+		4DEC4AAF2C342AAF00753C5C /* cardSlide3.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = cardSlide3.ogg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +139,34 @@
 		4DEC4A9A2C34295200753C5C /* Game */ = {
 			isa = PBXGroup;
 			children = (
+				4DEC4A9F2C342A9300753C5C /* Sounds */,
 				4DEC4A9B2C34296C00753C5C /* Generation.swift */,
 				4DEC4A9D2C342A5A00753C5C /* EngineColor.swift */,
 			);
 			path = Game;
+			sourceTree = "<group>";
+		};
+		4DEC4A9F2C342A9300753C5C /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				4DEC4AAA2C342AAF00753C5C /* Birdy_Note5.wav */,
+				4DEC4AAC2C342AAF00753C5C /* Birdy_Notification1.wav */,
+				4DEC4AA62C342AAF00753C5C /* cardPlace1.ogg */,
+				4DEC4AAB2C342AAF00753C5C /* cardPlace2.ogg */,
+				4DEC4AA02C342AAF00753C5C /* cardPlace3.ogg */,
+				4DEC4AAE2C342AAF00753C5C /* cardSlide1.ogg */,
+				4DEC4AA72C342AAF00753C5C /* cardSlide1.wav */,
+				4DEC4AA92C342AAF00753C5C /* cardSlide2.ogg */,
+				4DEC4AAF2C342AAF00753C5C /* cardSlide3.ogg */,
+				4DEC4AA22C342AAF00753C5C /* cardSlide8.wav */,
+				4DEC4AA32C342AAF00753C5C /* chipsCollide1.ogg */,
+				4DEC4AA82C342AAF00753C5C /* chipsCollide2.ogg */,
+				4DEC4AA42C342AAF00753C5C /* chipsCollide3.ogg */,
+				4DEC4AAD2C342AAF00753C5C /* dieShuffle1.ogg */,
+				4DEC4AA52C342AAF00753C5C /* dieThrow1.ogg */,
+				4DEC4AA12C342AAF00753C5C /* dieThrow2.ogg */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,8 +250,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DEC4ABE2C342AAF00753C5C /* cardSlide1.ogg in Resources */,
+				4DEC4AB32C342AAF00753C5C /* chipsCollide1.ogg in Resources */,
+				4DEC4AB12C342AAF00753C5C /* dieThrow2.ogg in Resources */,
+				4DEC4AB62C342AAF00753C5C /* cardPlace1.ogg in Resources */,
+				4DEC4AB02C342AAF00753C5C /* cardPlace3.ogg in Resources */,
+				4DEC4ABF2C342AAF00753C5C /* cardSlide3.ogg in Resources */,
 				4DEC4A782C34274300753C5C /* Preview Assets.xcassets in Resources */,
+				4DEC4AB42C342AAF00753C5C /* chipsCollide3.ogg in Resources */,
+				4DEC4ABC2C342AAF00753C5C /* Birdy_Notification1.wav in Resources */,
+				4DEC4AB92C342AAF00753C5C /* cardSlide2.ogg in Resources */,
+				4DEC4AB22C342AAF00753C5C /* cardSlide8.wav in Resources */,
+				4DEC4ABB2C342AAF00753C5C /* cardPlace2.ogg in Resources */,
+				4DEC4ABD2C342AAF00753C5C /* dieShuffle1.ogg in Resources */,
+				4DEC4AB82C342AAF00753C5C /* chipsCollide2.ogg in Resources */,
 				4DEC4A742C34274300753C5C /* Assets.xcassets in Resources */,
+				4DEC4ABA2C342AAF00753C5C /* Birdy_Note5.wav in Resources */,
+				4DEC4AB72C342AAF00753C5C /* cardSlide1.wav in Resources */,
+				4DEC4AB52C342AAF00753C5C /* dieThrow1.ogg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
