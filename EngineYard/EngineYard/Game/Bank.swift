@@ -24,6 +24,7 @@ extension NumericError : LocalizedError {
     }
 }
 
+
 class Bank {
     enum Transaction {
         case credit(amount: Int)
@@ -39,7 +40,7 @@ class Bank {
         self._balance = _balance
     }
     
-    func make(_ t: Transaction) -> Result<Int, NumericError> {
+    func transaction(_ t: Transaction) -> Result<Int, NumericError> {
         do {
            let _ = try validate(t: t)
            
@@ -56,6 +57,13 @@ class Bank {
        catch let err {
            return .failure(err as! NumericError)
        }
+    }
+    
+    func hasFunds(for amount: Int = 0) -> Bool {
+        guard self.balance >= amount else {
+            return false
+        }
+        return true
     }
     
     private func credit(_ amount: Int = 0){
@@ -77,7 +85,7 @@ class Bank {
             guard amount > 0 else {
                 throw NumericError.mustBePositive
             }
-            guard self._balance >= amount else {
+            guard self.hasFunds(for: amount) else {
                 throw NumericError.notEnoughFunds(amount: balance)
             }
             let sum = (balance - amount)
@@ -88,12 +96,26 @@ class Bank {
     }
 }
 
+// MARK: Tax functions
+
 extension Bank {
     func payTax() -> Int {
         guard self.balance > 0 else {
             return self.balance
         }
-        let sum: Float = Float(self.balance) * Constants.taxRate
-        return Int(round(sum))
+        let taxDue = calculateTax(on: self.balance)
+        guard self.hasFunds(for: taxDue) else {
+            return self.balance
+        }
+        self.debit(taxDue)
+        return self.balance
+    }
+    
+    func calculateTax(on amount: Int) -> Int {
+        guard self.balance > 0 else {
+            return self.balance
+        }
+        let returnValue = Int(floor(Float(amount) * Constants.taxRate))
+        return returnValue
     }
 }
