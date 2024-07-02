@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum NumericError : Error {
+enum NumericError : Error, Comparable {
     case mustBePositive
     case notEnoughFunds(amount: Int)
 }
@@ -26,7 +26,7 @@ extension NumericError : LocalizedError {
 
 
 class Bank {
-    enum Transaction {
+    private enum Transaction {
         case credit(amount: Int)
         case debit(amount: Int)
     }
@@ -40,37 +40,31 @@ class Bank {
         self._balance = _balance
     }
     
-    func transaction(_ t: Transaction) -> Result<Int, NumericError> {
-        do {
-           let _ = try validate(t: t)
-           
-           switch t {
-           case .credit(let amount):
-               credit(amount)
-               return .success(balance)
-                           
-           case .debit(let amount):
-               debit(amount)
-               return .success(balance)
-           }
-       }
-       catch let err {
-           return .failure(err as! NumericError)
-       }
-    }
-    
     func hasFunds(for amount: Int = 0) -> Bool {
-        guard self.balance >= amount else {
-            return false
-        }
-        return true
+        return self.balance >= amount
     }
     
-    private func credit(_ amount: Int = 0){
-        self._balance += amount
+    func credit(_ amount: Int) -> Result<Int, NumericError> {
+        do {
+            let _ = try validate(t: Transaction.credit(amount: amount))
+            self._balance += amount
+        }
+        catch let err {
+            return .failure(err as! NumericError)
+        }
+        return .success(self.balance)
     }
-    private func debit(_ amount: Int = 0) {
-        self._balance -= amount
+    
+    func debit(_ amount: Int) -> Result<Int, NumericError> {
+        do {
+            let _ = try validate(t: Transaction.debit(amount: amount))
+            self._balance -= amount
+        }
+        catch let err {
+            return .failure(err as! NumericError)
+        }
+        
+        return .success(self.balance)
     }
     
     private func validate(t: Transaction) throws {
@@ -94,6 +88,7 @@ class Bank {
             }
         }
     }
+    
 }
 
 // MARK: Tax functions
@@ -107,7 +102,7 @@ extension Bank {
         guard self.hasFunds(for: taxDue) else {
             return self.balance
         }
-        self.debit(taxDue)
+        let _ = self.debit(taxDue)
         return self.balance
     }
     
