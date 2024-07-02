@@ -29,6 +29,11 @@ final class Locomotive: Identifiable {
     let capacity: Int
     let isActive: Bool
     
+    var isAtCapacity: Bool {
+        let size = (orders.count + sales.count)
+        return size >= self.capacity
+    }
+    
     init(id: UUID = UUID(), name: String, generation: Generation, engineColor: EngineColor, cost: Int, initialOrder: Int? = nil, orders: [Int] = [Int](), sales: [Int] = [Int](), capacity: Int = 0, isActive: Bool = false ) {
         self.id = id
         self.name = name

@@ -20,3 +20,48 @@ extension Locomotive {
         self.initialOrder = D6.roll()
     }
 }
+
+// orders
+extension Locomotive {
+    func addOrder() {
+        guard !isAtCapacity else {
+            return
+        }
+        let order = D6.roll()
+        self.orders.append(order)
+    }
+    
+    func transferOrderToSale() {
+        guard !isAtCapacity else {
+            return
+        }
+        
+        // Find the item, move it to the sales array, then remove from orders array
+        //self.loco.sales.append(value)
+        //self.loco.orders.remove(at: index)
+    }
+}
+
+// sales
+extension Locomotive {
+    func addSale(value: Int) {
+        guard !isAtCapacity else {
+            return
+        }
+        self.sales.append(value)
+    }
+    
+    func transferAllSalesToOrders() {
+        guard !isAtCapacity else {
+            return
+        }
+        guard sales.count > 0 else {
+            return
+        }
+        
+        let _ = sales.enumerated().map { index, value in
+            self.addSale(value: value)
+        }
+        self.sales.removeAll()
+    }
+}

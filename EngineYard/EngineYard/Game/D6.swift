@@ -12,6 +12,11 @@ struct D6 {
     private static let minValue: Int = 1
     private static let maxValue: Int = 6
     
+    public static func isValid(D6: Int) -> Bool {
+        let numberRange = minValue...maxValue
+        return numberRange.contains(D6)
+    }
+    
     public static func roll() -> Int {
         if #available(iOS 9, *) {
             let d6 = GKRandomDistribution.d6()
