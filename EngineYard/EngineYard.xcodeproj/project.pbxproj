@@ -13,19 +13,10 @@
 		4DEC4A742C34274300753C5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DEC4A732C34274300753C5C /* Assets.xcassets */; };
 		4DEC4A782C34274300753C5C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DEC4A772C34274300753C5C /* Preview Assets.xcassets */; };
 		4DEC4A822C34274400753C5C /* EngineYardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC4A812C34274400753C5C /* EngineYardTests.swift */; };
-		4DEC4A8C2C34274400753C5C /* EngineYardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC4A8B2C34274400753C5C /* EngineYardUITests.swift */; };
-		4DEC4A8E2C34274400753C5C /* EngineYardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC4A8D2C34274400753C5C /* EngineYardUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		4DEC4A7E2C34274400753C5C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4DEC4A622C34274200753C5C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4DEC4A692C34274200753C5C;
-			remoteInfo = EngineYard;
-		};
-		4DEC4A882C34274400753C5C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4DEC4A622C34274200753C5C /* Project object */;
 			proxyType = 1;
@@ -44,9 +35,6 @@
 		4DEC4A772C34274300753C5C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4DEC4A7D2C34274400753C5C /* EngineYardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EngineYardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DEC4A812C34274400753C5C /* EngineYardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineYardTests.swift; sourceTree = "<group>"; };
-		4DEC4A872C34274400753C5C /* EngineYardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EngineYardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DEC4A8B2C34274400753C5C /* EngineYardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineYardUITests.swift; sourceTree = "<group>"; };
-		4DEC4A8D2C34274400753C5C /* EngineYardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineYardUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,13 +52,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4DEC4A842C34274400753C5C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -79,7 +60,6 @@
 			children = (
 				4DEC4A6C2C34274200753C5C /* EngineYard */,
 				4DEC4A802C34274400753C5C /* EngineYardTests */,
-				4DEC4A8A2C34274400753C5C /* EngineYardUITests */,
 				4DEC4A6B2C34274200753C5C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,7 +69,6 @@
 			children = (
 				4DEC4A6A2C34274200753C5C /* EngineYard.app */,
 				4DEC4A7D2C34274400753C5C /* EngineYardTests.xctest */,
-				4DEC4A872C34274400753C5C /* EngineYardUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,15 +100,6 @@
 				4DEC4A812C34274400753C5C /* EngineYardTests.swift */,
 			);
 			path = EngineYardTests;
-			sourceTree = "<group>";
-		};
-		4DEC4A8A2C34274400753C5C /* EngineYardUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4DEC4A8B2C34274400753C5C /* EngineYardUITests.swift */,
-				4DEC4A8D2C34274400753C5C /* EngineYardUITestsLaunchTests.swift */,
-			);
-			path = EngineYardUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,24 +140,6 @@
 			productReference = 4DEC4A7D2C34274400753C5C /* EngineYardTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4DEC4A862C34274400753C5C /* EngineYardUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4DEC4A972C34274400753C5C /* Build configuration list for PBXNativeTarget "EngineYardUITests" */;
-			buildPhases = (
-				4DEC4A832C34274400753C5C /* Sources */,
-				4DEC4A842C34274400753C5C /* Frameworks */,
-				4DEC4A852C34274400753C5C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4DEC4A892C34274400753C5C /* PBXTargetDependency */,
-			);
-			name = EngineYardUITests;
-			productName = EngineYardUITests;
-			productReference = 4DEC4A872C34274400753C5C /* EngineYardUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -202,10 +154,6 @@
 						CreatedOnToolsVersion = 15.4;
 					};
 					4DEC4A7C2C34274400753C5C = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 4DEC4A692C34274200753C5C;
-					};
-					4DEC4A862C34274400753C5C = {
 						CreatedOnToolsVersion = 15.4;
 						TestTargetID = 4DEC4A692C34274200753C5C;
 					};
@@ -226,7 +174,6 @@
 			targets = (
 				4DEC4A692C34274200753C5C /* EngineYard */,
 				4DEC4A7C2C34274400753C5C /* EngineYardTests */,
-				4DEC4A862C34274400753C5C /* EngineYardUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -242,13 +189,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4DEC4A7B2C34274400753C5C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4DEC4A852C34274400753C5C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -276,15 +216,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4DEC4A832C34274400753C5C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4DEC4A8E2C34274400753C5C /* EngineYardUITestsLaunchTests.swift in Sources */,
-				4DEC4A8C2C34274400753C5C /* EngineYardUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -292,11 +223,6 @@
 			isa = PBXTargetDependency;
 			target = 4DEC4A692C34274200753C5C /* EngineYard */;
 			targetProxy = 4DEC4A7E2C34274400753C5C /* PBXContainerItemProxy */;
-		};
-		4DEC4A892C34274400753C5C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4DEC4A692C34274200753C5C /* EngineYard */;
-			targetProxy = 4DEC4A882C34274400753C5C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -543,52 +469,6 @@
 			};
 			name = Release;
 		};
-		4DEC4A982C34274400753C5C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MACOSX_DEPLOYMENT_TARGET = 14.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = uk.co.silentflute.EngineYardUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = EngineYard;
-			};
-			name = Debug;
-		};
-		4DEC4A992C34274400753C5C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MACOSX_DEPLOYMENT_TARGET = 14.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = uk.co.silentflute.EngineYardUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = EngineYard;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -615,15 +495,6 @@
 			buildConfigurations = (
 				4DEC4A952C34274400753C5C /* Debug */,
 				4DEC4A962C34274400753C5C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4DEC4A972C34274400753C5C /* Build configuration list for PBXNativeTarget "EngineYardUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4DEC4A982C34274400753C5C /* Debug */,
-				4DEC4A992C34274400753C5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
