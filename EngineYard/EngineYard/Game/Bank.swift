@@ -36,8 +36,10 @@ class Bank {
         return self._balance
     }
     
-    init(_balance: Int) {
-        self._balance = _balance
+    init(_ amount: Int = 0) {
+        var amount = amount
+        if amount < 0 { amount = 0 }
+        self._balance = amount
     }
     
     func hasFunds(for amount: Int = 0) -> Bool {
