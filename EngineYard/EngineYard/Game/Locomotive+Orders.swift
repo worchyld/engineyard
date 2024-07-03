@@ -8,7 +8,8 @@
 import Foundation
 
 
-// initialOrder
+// MARK: InitialOrder
+
 extension Locomotive {
     func createInitialOrder() {
         guard let _ = self.initialOrder else {
@@ -21,7 +22,8 @@ extension Locomotive {
     }
 }
 
-// orders
+// MARK: Orders
+
 extension Locomotive {
     func addOrder() {
         guard !isAtCapacity else {
@@ -42,7 +44,8 @@ extension Locomotive {
     }
 }
 
-// sales
+// MARK: Sales
+
 extension Locomotive {
     func addSale(value: Int) {
         guard !isAtCapacity else {
