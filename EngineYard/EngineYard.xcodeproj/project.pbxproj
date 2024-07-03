@@ -167,6 +167,8 @@
 			isa = PBXGroup;
 			children = (
 				4DEC4A9F2C342A9300753C5C /* Sounds */,
+				4DDF390A2C35FD1800F77FB2 /* NumberFormatCache.swift */,
+				4DDF390C2C35FD6F00F77FB2 /* EY+FlatColor.swift */,
 				4D9372362C349CCC0067E5F6 /* D6.swift */,
 				4DEC4A9B2C34296C00753C5C /* Generation.swift */,
 				4DEC4AC02C342AD900753C5C /* Sounds.swift */,
@@ -179,8 +181,6 @@
 				4DEC4AD02C342FBA00753C5C /* Player.swift */,
 				4D93722C2C3476300067E5F6 /* Constants.swift */,
 				4D93722E2C34766C0067E5F6 /* Bank.swift */,
-				4DDF390A2C35FD1800F77FB2 /* NumberFormatCache.swift */,
-				4DDF390C2C35FD6F00F77FB2 /* EY+FlatColor.swift */,
 			);
 			path = Game;
 			sourceTree = "<group>";
