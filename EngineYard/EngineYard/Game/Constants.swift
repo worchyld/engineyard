@@ -30,47 +30,15 @@ public struct Constants {
     }
     
     public struct Board {
-        public static let totalSpaces = 14 // total number of spaces in the game
+        public static let totalDecks = 14 // total number of spaces in the game
         public static let totalCards = 43 // total number of cards in the game
         public static let totalDicePoolCapacity = 46 // for dice
     }
     
-    public struct Green {
-        public static let totalCards = 20
-        public static let totalGenerations = 5
-        public static let diceCapacityPerGeneration = [3,4,4,5,5]
-        public static var totalDiceCapacity: Int {
-            return diceCapacityPerGeneration.reduce(0, +)
-        }
+    public struct Cards {
+        public static let green = [4,4,4,4,4] // 20 green: 4 First Gen, 4 Second Gen, 4 Third Gen, 4 Fourth Gen, 4 Fifth Gen
+        public static let red = [3,3,3,4,0]  // 13 red: 3 First Gen, 3 Second Gen, 3 Third Gen, 4 Fourth Gen
+        public static let yellow = [2,2,3,0,0] // 7 yellow: 2 First Gen, 2 Second Gen, 3 Third Gen
+        public static let blue = [1,2,0,0,0] //  3 blue: 1 First Gen, 2 Second Gen
     }
-    public struct Red {
-        public static let totalCards = 13
-        public static let totalGenerations = 4
-        public static let diceCapacityPerGeneration = [3,3,4,4,0]
-        public static var totalDiceCapacity: Int {
-            return diceCapacityPerGeneration.reduce(0, +)
-        }
-    }
-    public struct Yellow {
-        public static let totalCards = 7
-        public static let totalGenerations = 3
-        public static let diceCapacityPerGeneration = [2,3,3,0,0]
-        public static var totalDiceCapacity: Int {
-            return diceCapacityPerGeneration.reduce(0, +)
-        }
-    }
-    public struct Blue {
-        public static let totalCards = 3
-        public static let totalGenerations = 2
-        public static let diceCapacityPerGeneration = [1,2,0,0,0]
-        public static var totalDiceCapacity: Int {
-            return diceCapacityPerGeneration.reduce(0, +)
-        }
-    }
-    /*
-     let green = [4,4,4,4,4] // 20 green: 4 First Gen, 4 Second Gen, 4 Third Gen, 4 Fourth Gen, 4 Fifth Gen
-     let red = [3,3,3,4,0]  // 13 red: 3 First Gen, 3 Second Gen, 3 Third Gen, 4 Fourth Gen
-     let yellow = [2,2,3,0,0] // 7 yellow: 2 First Gen, 2 Second Gen, 3 Third Gen
-     let blue = [1,2,0,0,0] //  3 blue: 1 First Gen, 2 Second Gen
-     */
 }
