@@ -8,7 +8,8 @@
 import Foundation
 import UIKit
 
-//  @source : https://github.com/0x73/SDevFlatColors/blob/master/Classes/SDevFlatColors.swift
+// 292D2F (41,45,47)
+// @source : https://github.com/0x73/SDevFlatColors/blob/master/Classes/SDevFlatColors.swift
 
 public extension UInt {
     func convertToUIColor() -> UIColor {

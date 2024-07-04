@@ -29,8 +29,8 @@ public struct Constants {
         }
     }
     
-    public struct Trains {
-        public static let total = 14 // total number of decks in the game
+    public struct Board {
+        public static let totalSpaces = 14 // total number of spaces in the game
         public static let totalCards = 43 // total number of cards in the game
         public static let totalDicePoolCapacity = 46 // for dice
     }

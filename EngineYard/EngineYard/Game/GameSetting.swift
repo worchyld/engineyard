@@ -30,3 +30,13 @@ struct GameSetting {
         }
     }
 }
+
+extension GameSetting {
+    func save() {
+        
+    }
+    
+    func load() {
+        
+    }
+}

@@ -39,8 +39,6 @@ extension Locomotive {
         }
         
         // Find the item, move it to the sales array, then remove from orders array
-        //self.loco.sales.append(value)
-        //self.loco.orders.remove(at: index)
     }
 }
 
