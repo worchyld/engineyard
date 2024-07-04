@@ -67,4 +67,10 @@ public struct Constants {
             return diceCapacityPerGeneration.reduce(0, +)
         }
     }
+    /*
+     let green = [4,4,4,4,4] // 20 green: 4 First Gen, 4 Second Gen, 4 Third Gen, 4 Fourth Gen, 4 Fifth Gen
+     let red = [3,3,3,4,0]  // 13 red: 3 First Gen, 3 Second Gen, 3 Third Gen, 4 Fourth Gen
+     let yellow = [2,2,3,0,0] // 7 yellow: 2 First Gen, 2 Second Gen, 3 Third Gen
+     let blue = [1,2,0,0,0] //  3 blue: 1 First Gen, 2 Second Gen
+     */
 }

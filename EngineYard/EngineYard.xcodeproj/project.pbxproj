@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D3E05BD2C36E15500A713E7 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3E05BC2C36E15500A713E7 /* Deck.swift */; };
+		4D3E05BF2C36E16B00A713E7 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3E05BE2C36E16B00A713E7 /* Card.swift */; };
 		4D93722D2C3476300067E5F6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D93722C2C3476300067E5F6 /* Constants.swift */; };
 		4D93722F2C34766C0067E5F6 /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D93722E2C34766C0067E5F6 /* Bank.swift */; };
-		4D9372332C3499820067E5F6 /* Locomotive+Orders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9372322C3499820067E5F6 /* Locomotive+Orders.swift */; };
 		4D9372372C349CCC0067E5F6 /* D6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9372362C349CCC0067E5F6 /* D6.swift */; };
 		4D9372392C34A4270067E5F6 /* BankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9372382C34A4270067E5F6 /* BankTests.swift */; };
 		4DDF390B2C35FD1800F77FB2 /* NumberFormatCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDF390A2C35FD1800F77FB2 /* NumberFormatCache.swift */; };
 		4DDF390D2C35FD6F00F77FB2 /* EY+FlatColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDF390C2C35FD6F00F77FB2 /* EY+FlatColor.swift */; };
-		4DE17B242C36ACAA00A39FD8 /* LocomotiveCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE17B232C36ACAA00A39FD8 /* LocomotiveCard.swift */; };
 		4DEC4A6E2C34274200753C5C /* EngineYardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC4A6D2C34274200753C5C /* EngineYardApp.swift */; };
 		4DEC4A702C34274200753C5C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC4A6F2C34274200753C5C /* ContentView.swift */; };
 		4DEC4A742C34274300753C5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DEC4A732C34274300753C5C /* Assets.xcassets */; };
@@ -39,7 +39,6 @@
 		4DEC4ABE2C342AAF00753C5C /* cardSlide1.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 4DEC4AAE2C342AAF00753C5C /* cardSlide1.ogg */; };
 		4DEC4ABF2C342AAF00753C5C /* cardSlide3.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 4DEC4AAF2C342AAF00753C5C /* cardSlide3.ogg */; };
 		4DEC4AC12C342AD900753C5C /* Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC4AC02C342AD900753C5C /* Sounds.swift */; };
-		4DEC4AC72C342B9200753C5C /* Locomotive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC4AC62C342B9200753C5C /* Locomotive.swift */; };
 		4DEC4ACB2C342CC400753C5C /* GameBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC4ACA2C342CC400753C5C /* GameBoard.swift */; };
 		4DEC4ACD2C342CFD00753C5C /* GameSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC4ACC2C342CFD00753C5C /* GameSetting.swift */; };
 		4DEC4AD12C342FBA00753C5C /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC4AD02C342FBA00753C5C /* Player.swift */; };
@@ -57,14 +56,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D3E05BC2C36E15500A713E7 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		4D3E05BE2C36E16B00A713E7 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		4D93722C2C3476300067E5F6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4D93722E2C34766C0067E5F6 /* Bank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
-		4D9372322C3499820067E5F6 /* Locomotive+Orders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Locomotive+Orders.swift"; sourceTree = "<group>"; };
 		4D9372362C349CCC0067E5F6 /* D6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = D6.swift; sourceTree = "<group>"; };
 		4D9372382C34A4270067E5F6 /* BankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankTests.swift; sourceTree = "<group>"; };
 		4DDF390A2C35FD1800F77FB2 /* NumberFormatCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFormatCache.swift; sourceTree = "<group>"; };
 		4DDF390C2C35FD6F00F77FB2 /* EY+FlatColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EY+FlatColor.swift"; sourceTree = "<group>"; };
-		4DE17B232C36ACAA00A39FD8 /* LocomotiveCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocomotiveCard.swift; sourceTree = "<group>"; };
 		4DEC4A6A2C34274200753C5C /* EngineYard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EngineYard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DEC4A6D2C34274200753C5C /* EngineYardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineYardApp.swift; sourceTree = "<group>"; };
 		4DEC4A6F2C34274200753C5C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -92,7 +91,6 @@
 		4DEC4AAE2C342AAF00753C5C /* cardSlide1.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = cardSlide1.ogg; sourceTree = "<group>"; };
 		4DEC4AAF2C342AAF00753C5C /* cardSlide3.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = cardSlide3.ogg; sourceTree = "<group>"; };
 		4DEC4AC02C342AD900753C5C /* Sounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sounds.swift; sourceTree = "<group>"; };
-		4DEC4AC62C342B9200753C5C /* Locomotive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locomotive.swift; sourceTree = "<group>"; };
 		4DEC4ACA2C342CC400753C5C /* GameBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoard.swift; sourceTree = "<group>"; };
 		4DEC4ACC2C342CFD00753C5C /* GameSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSetting.swift; sourceTree = "<group>"; };
 		4DEC4AD02C342FBA00753C5C /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
@@ -176,12 +174,11 @@
 				4DEC4AC02C342AD900753C5C /* Sounds.swift */,
 				4DEC4A9B2C34296C00753C5C /* Generation.swift */,
 				4DEC4A9D2C342A5A00753C5C /* EngineColor.swift */,
-				4DEC4AC62C342B9200753C5C /* Locomotive.swift */,
-				4D9372322C3499820067E5F6 /* Locomotive+Orders.swift */,
-				4DE17B232C36ACAA00A39FD8 /* LocomotiveCard.swift */,
 				4DEC4AD22C34300B00753C5C /* GameModel.swift */,
 				4DEC4ACA2C342CC400753C5C /* GameBoard.swift */,
 				4DEC4ACC2C342CFD00753C5C /* GameSetting.swift */,
+				4D3E05BC2C36E15500A713E7 /* Deck.swift */,
+				4D3E05BE2C36E16B00A713E7 /* Card.swift */,
 				4DEC4AD02C342FBA00753C5C /* Player.swift */,
 				4D93722E2C34766C0067E5F6 /* Bank.swift */,
 			);
@@ -333,17 +330,16 @@
 				4DEC4A9E2C342A5A00753C5C /* EngineColor.swift in Sources */,
 				4D9372372C349CCC0067E5F6 /* D6.swift in Sources */,
 				4DEC4AC12C342AD900753C5C /* Sounds.swift in Sources */,
-				4DE17B242C36ACAA00A39FD8 /* LocomotiveCard.swift in Sources */,
 				4DEC4ACB2C342CC400753C5C /* GameBoard.swift in Sources */,
 				4DEC4ACD2C342CFD00753C5C /* GameSetting.swift in Sources */,
 				4DEC4AD32C34300B00753C5C /* GameModel.swift in Sources */,
 				4DEC4A9C2C34296C00753C5C /* Generation.swift in Sources */,
-				4DEC4AC72C342B9200753C5C /* Locomotive.swift in Sources */,
 				4D93722F2C34766C0067E5F6 /* Bank.swift in Sources */,
 				4DDF390D2C35FD6F00F77FB2 /* EY+FlatColor.swift in Sources */,
-				4D9372332C3499820067E5F6 /* Locomotive+Orders.swift in Sources */,
+				4D3E05BD2C36E15500A713E7 /* Deck.swift in Sources */,
 				4DEC4AD12C342FBA00753C5C /* Player.swift in Sources */,
 				4DEC4A6E2C34274200753C5C /* EngineYardApp.swift in Sources */,
+				4D3E05BF2C36E16B00A713E7 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
