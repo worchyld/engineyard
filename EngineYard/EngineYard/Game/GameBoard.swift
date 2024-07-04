@@ -8,15 +8,17 @@
 import Foundation
 
 class GameBoard {
-    var decks: [Deck]?
+    var decks: [Deck]
     
-    init(decks: [Deck]? = nil) {
+    init(decks: [Deck] = [Deck]()) {
         self.decks = decks
     }
     
     func prepare() {
+        self.decks.removeAll()
         self.decks = createBoard()
     }
+
 }
 
 extension GameBoard {

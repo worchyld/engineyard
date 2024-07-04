@@ -22,7 +22,7 @@ class GameModel {
     var players: [Player]
     var activePlayer: Player?
     
-    init(gameState: GameState = .setup, gameBoard: GameBoard, gameSetting: GameSetting, players: [Player], activePlayer: Player? = nil) {
+    init(gameState: GameState = .setup, gameBoard: GameBoard, gameSetting: GameSetting, players: [Player] = [Player](), activePlayer: Player? = nil) {
         self.gameState = gameState
         self.gameBoard = gameBoard
         self.gameSetting = gameSetting

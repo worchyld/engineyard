@@ -26,7 +26,9 @@ struct D6 {
             return Int.random(in: D6.minValue...D6.maxValue)
         }
     }
-    
+}
+
+extension D6 {    
     public static func increment(value: Int, byAmount: Int = 1) -> Int {
         var value = value
         guard ((value + byAmount) <= D6.maxValue) else {

@@ -11,10 +11,12 @@ class Player: Identifiable {
     let id: UUID
     var isAI: Bool
     var cards: [Card]
+    var cash: Int
     
-    init(id: UUID = UUID(), isAI: Bool = false, cards: [Card] = [Card]()) {
+    init(id: UUID = UUID(), isAI: Bool = false, cards: [Card] = [Card](), cash: Int = 0) {
         self.id = id
         self.isAI = isAI
         self.cards = cards
+        self.cash = cash
     }
 }
