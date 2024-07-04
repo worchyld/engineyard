@@ -8,15 +8,15 @@
 import Foundation
 
 class GameBoard {
-    var decks: [Deck]
+    var decks: [Deck]?
     
-    init(decks: [Deck]) {
-        self.decks = decks
+    init() {
+        self.decks = createBoard()
     }
 }
 
 extension GameBoard {
-    private func createBoard() {
+    private func createBoard() -> [Deck] {
         // Cards:
         // 20 green: 4x First Gen, 4x Second Gen, 4x Third Gen, 4x Fourth Gen, 4x Fifth Gen
         // 13 red: 3x First Gen, 3x Second Gen, 3x Third Gen, 4x Fourth Gen
@@ -46,5 +46,7 @@ extension GameBoard {
                 deck.cards.append(card)
             }
         }
+        
+        return decks
     }
 }
