@@ -10,7 +10,11 @@ import Foundation
 class GameBoard {
     var decks: [Deck]?
     
-    init() {
+    init(decks: [Deck]? = nil) {
+        self.decks = decks
+    }
+    
+    func prepare() {
         self.decks = createBoard()
     }
 }

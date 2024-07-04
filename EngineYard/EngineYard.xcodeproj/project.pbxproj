@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4D3E05BD2C36E15500A713E7 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3E05BC2C36E15500A713E7 /* Deck.swift */; };
 		4D3E05BF2C36E16B00A713E7 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3E05BE2C36E16B00A713E7 /* Card.swift */; };
+		4D3E05C12C36E3F300A713E7 /* GameBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3E05C02C36E3F300A713E7 /* GameBoardTests.swift */; };
 		4D93722D2C3476300067E5F6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D93722C2C3476300067E5F6 /* Constants.swift */; };
 		4D93722F2C34766C0067E5F6 /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D93722E2C34766C0067E5F6 /* Bank.swift */; };
 		4D9372372C349CCC0067E5F6 /* D6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9372362C349CCC0067E5F6 /* D6.swift */; };
@@ -58,6 +59,7 @@
 /* Begin PBXFileReference section */
 		4D3E05BC2C36E15500A713E7 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 		4D3E05BE2C36E16B00A713E7 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		4D3E05C02C36E3F300A713E7 /* GameBoardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoardTests.swift; sourceTree = "<group>"; };
 		4D93722C2C3476300067E5F6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4D93722E2C34766C0067E5F6 /* Bank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
 		4D9372362C349CCC0067E5F6 /* D6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = D6.swift; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 			children = (
 				4DEC4A812C34274400753C5C /* EngineYardTests.swift */,
 				4D9372382C34A4270067E5F6 /* BankTests.swift */,
+				4D3E05C02C36E3F300A713E7 /* GameBoardTests.swift */,
 			);
 			path = EngineYardTests;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 			files = (
 				4DEC4A822C34274400753C5C /* EngineYardTests.swift in Sources */,
 				4D9372392C34A4270067E5F6 /* BankTests.swift in Sources */,
+				4D3E05C12C36E3F300A713E7 /* GameBoardTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
