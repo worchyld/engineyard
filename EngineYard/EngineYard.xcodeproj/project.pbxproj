@@ -16,6 +16,7 @@
 		4D9372392C34A4270067E5F6 /* BankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9372382C34A4270067E5F6 /* BankTests.swift */; };
 		4DDDE27D2C372F8900C2C6BE /* GameSetupManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDDE27C2C372F8900C2C6BE /* GameSetupManager.swift */; };
 		4DDDE27F2C374D5500C2C6BE /* OrderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDDE27E2C374D5500C2C6BE /* OrderManager.swift */; };
+		4DDDE2812C37894A00C2C6BE /* GSMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDDE2802C37894A00C2C6BE /* GSMTests.swift */; };
 		4DDF390B2C35FD1800F77FB2 /* NumberFormatCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDF390A2C35FD1800F77FB2 /* NumberFormatCache.swift */; };
 		4DDF390D2C35FD6F00F77FB2 /* EY+FlatColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDF390C2C35FD6F00F77FB2 /* EY+FlatColor.swift */; };
 		4DEC4A6E2C34274200753C5C /* EngineYardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC4A6D2C34274200753C5C /* EngineYardApp.swift */; };
@@ -68,6 +69,7 @@
 		4D9372382C34A4270067E5F6 /* BankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankTests.swift; sourceTree = "<group>"; };
 		4DDDE27C2C372F8900C2C6BE /* GameSetupManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSetupManager.swift; sourceTree = "<group>"; };
 		4DDDE27E2C374D5500C2C6BE /* OrderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderManager.swift; sourceTree = "<group>"; };
+		4DDDE2802C37894A00C2C6BE /* GSMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSMTests.swift; sourceTree = "<group>"; };
 		4DDF390A2C35FD1800F77FB2 /* NumberFormatCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFormatCache.swift; sourceTree = "<group>"; };
 		4DDF390C2C35FD6F00F77FB2 /* EY+FlatColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EY+FlatColor.swift"; sourceTree = "<group>"; };
 		4DEC4A6A2C34274200753C5C /* EngineYard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EngineYard.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -166,6 +168,7 @@
 				4DEC4A812C34274400753C5C /* EngineYardTests.swift */,
 				4D9372382C34A4270067E5F6 /* BankTests.swift */,
 				4D3E05C02C36E3F300A713E7 /* GameBoardTests.swift */,
+				4DDDE2802C37894A00C2C6BE /* GSMTests.swift */,
 			);
 			path = EngineYardTests;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 				4DEC4A822C34274400753C5C /* EngineYardTests.swift in Sources */,
 				4D9372392C34A4270067E5F6 /* BankTests.swift in Sources */,
 				4D3E05C12C36E3F300A713E7 /* GameBoardTests.swift in Sources */,
+				4DDDE2812C37894A00C2C6BE /* GSMTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

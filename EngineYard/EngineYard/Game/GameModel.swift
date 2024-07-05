@@ -16,11 +16,11 @@ public enum GameErrorDelegate: Error {
 }
 
 class GameModel {
-    var gameState: GameState
-    var gameBoard: GameBoard
-    var gameSetting: GameSetting
-    var players: [Player]
-    var activePlayer: Player?
+    public private (set) var gameState: GameState
+    public private (set) var gameBoard: GameBoard
+    public private (set) var gameSetting: GameSetting
+    public private (set) var players: [Player]
+    public private (set) var activePlayer: Player?
     
     init(gameState: GameState = .setup, gameBoard: GameBoard, gameSetting: GameSetting, players: [Player] = [Player](), activePlayer: Player? = nil) {
         self.gameState = gameState
@@ -28,6 +28,21 @@ class GameModel {
         self.gameSetting = gameSetting
         self.players = players
         self.activePlayer = activePlayer
-        
+    }
+    
+    func setGameState(gameState: GameState) {
+        self.gameState = gameState
+    }
+    
+    func setGameBoard(gameBoard: GameBoard) {
+        self.gameBoard = gameBoard
+    }
+    
+    func setPlayers(players: [Player]) {
+        self.players = players
+    }
+    
+    func setSettings(setting: GameSetting) {
+        self.gameSetting = setting
     }
 }
