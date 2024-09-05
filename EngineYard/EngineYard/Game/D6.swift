@@ -46,4 +46,19 @@ extension D6 {
         value -= byAmount
         return value
     }
+
+    /*
+    func isValidDiceNumber(_ number: Int, for dice: GKRandomDistribution) -> Bool {
+        return (dice.lowestValue...dice.highestValue).contains(number)
+    }
+
+    // Example usage:
+    let number = 13
+    let d12 = GKRandomDistribution.d12()
+
+    if isValidDiceNumber(number, for: d12) {
+        print("\(number) is a valid number for D12")
+    } else {
+        print("\(number) is not a valid number for D12")
+    }*/
 }
