@@ -19,7 +19,7 @@ enum Sounds: String, CaseIterable {
     case dieThrow2 = "dieThrow2.ogg"
 }
 
-class SoundPlayer {
+class SoundPlayer: NSObject {
     private var audioPlayer: AVAudioPlayer?
     private var isPlaying = false
     

@@ -10,6 +10,48 @@
 		4D3E05BD2C36E15500A713E7 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3E05BC2C36E15500A713E7 /* Deck.swift */; };
 		4D3E05BF2C36E16B00A713E7 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3E05BE2C36E16B00A713E7 /* Card.swift */; };
 		4D3E05C12C36E3F300A713E7 /* GameBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3E05C02C36E3F300A713E7 /* GameBoardTests.swift */; };
+		4D6F851B2C8B030C00069C3A /* PlayerSelectScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F851A2C8B030C00069C3A /* PlayerSelectScreenView.swift */; };
+		4D6F854A2C8B085100069C3A /* Birdy_Note5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D6F851C2C8B085100069C3A /* Birdy_Note5.wav */; };
+		4D6F854B2C8B085100069C3A /* Birdy_Notification1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D6F851D2C8B085100069C3A /* Birdy_Notification1.wav */; };
+		4D6F854C2C8B085100069C3A /* cardPlace1.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 4D6F851E2C8B085100069C3A /* cardPlace1.ogg */; };
+		4D6F854D2C8B085100069C3A /* cardPlace2.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 4D6F851F2C8B085100069C3A /* cardPlace2.ogg */; };
+		4D6F854E2C8B085100069C3A /* cardPlace3.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 4D6F85202C8B085100069C3A /* cardPlace3.ogg */; };
+		4D6F854F2C8B085100069C3A /* cardSlide1.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 4D6F85212C8B085100069C3A /* cardSlide1.ogg */; };
+		4D6F85502C8B085100069C3A /* cardSlide1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D6F85222C8B085100069C3A /* cardSlide1.wav */; };
+		4D6F85512C8B085100069C3A /* cardSlide2.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 4D6F85232C8B085100069C3A /* cardSlide2.ogg */; };
+		4D6F85522C8B085100069C3A /* cardSlide3.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 4D6F85242C8B085100069C3A /* cardSlide3.ogg */; };
+		4D6F85532C8B085100069C3A /* cardSlide8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D6F85252C8B085100069C3A /* cardSlide8.wav */; };
+		4D6F85542C8B085100069C3A /* chipsCollide1.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 4D6F85262C8B085100069C3A /* chipsCollide1.ogg */; };
+		4D6F85552C8B085100069C3A /* chipsCollide2.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 4D6F85272C8B085100069C3A /* chipsCollide2.ogg */; };
+		4D6F85562C8B085100069C3A /* chipsCollide3.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 4D6F85282C8B085100069C3A /* chipsCollide3.ogg */; };
+		4D6F85572C8B085100069C3A /* dieShuffle1.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 4D6F85292C8B085100069C3A /* dieShuffle1.ogg */; };
+		4D6F85582C8B085100069C3A /* dieThrow1.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 4D6F852A2C8B085100069C3A /* dieThrow1.ogg */; };
+		4D6F85592C8B085100069C3A /* dieThrow2.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 4D6F852B2C8B085100069C3A /* dieThrow2.ogg */; };
+		4D6F855A2C8B085100069C3A /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F852D2C8B085100069C3A /* Bank.swift */; };
+		4D6F855B2C8B085100069C3A /* BigNumberFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F852E2C8B085100069C3A /* BigNumberFormat.swift */; };
+		4D6F855C2C8B085100069C3A /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F852F2C8B085100069C3A /* Card.swift */; };
+		4D6F855D2C8B085100069C3A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F85302C8B085100069C3A /* Constants.swift */; };
+		4D6F855E2C8B085100069C3A /* Cursor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F85312C8B085100069C3A /* Cursor.swift */; };
+		4D6F855F2C8B085100069C3A /* D6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F85322C8B085100069C3A /* D6.swift */; };
+		4D6F85602C8B085100069C3A /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F85332C8B085100069C3A /* Deck.swift */; };
+		4D6F85612C8B085100069C3A /* EngineColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F85342C8B085100069C3A /* EngineColor.swift */; };
+		4D6F85622C8B085100069C3A /* EY+FlatColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F85352C8B085100069C3A /* EY+FlatColor.swift */; };
+		4D6F85632C8B085100069C3A /* EYMarketDemands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F85362C8B085100069C3A /* EYMarketDemands.swift */; };
+		4D6F85642C8B085100069C3A /* GameBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F85372C8B085100069C3A /* GameBoard.swift */; };
+		4D6F85652C8B085100069C3A /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F85382C8B085100069C3A /* GameModel.swift */; };
+		4D6F85662C8B085100069C3A /* GameSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F85392C8B085100069C3A /* GameSetting.swift */; };
+		4D6F85672C8B085100069C3A /* GameSetupManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F853A2C8B085100069C3A /* GameSetupManager.swift */; };
+		4D6F85682C8B085100069C3A /* Generation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F853B2C8B085100069C3A /* Generation.swift */; };
+		4D6F85692C8B085100069C3A /* NumberFormatCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F853C2C8B085100069C3A /* NumberFormatCache.swift */; };
+		4D6F856A2C8B085100069C3A /* OrderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F853D2C8B085100069C3A /* OrderManager.swift */; };
+		4D6F856B2C8B085100069C3A /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F853E2C8B085100069C3A /* Player.swift */; };
+		4D6F856C2C8B085100069C3A /* Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F853F2C8B085100069C3A /* Sounds.swift */; };
+		4D6F856D2C8B085100069C3A /* werks.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4D6F85402C8B085100069C3A /* werks.txt */; };
+		4D6F856E2C8B085100069C3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D6F85422C8B085100069C3A /* Preview Assets.xcassets */; };
+		4D6F856F2C8B085100069C3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D6F85442C8B085100069C3A /* Assets.xcassets */; };
+		4D6F85702C8B085100069C3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F85452C8B085100069C3A /* ContentView.swift */; };
+		4D6F85712C8B085100069C3A /* EngineYardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F85472C8B085100069C3A /* EngineYardApp.swift */; };
+		4D6F85722C8B085100069C3A /* PlayerSelectScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F85482C8B085100069C3A /* PlayerSelectScreenView.swift */; };
 		4D93722D2C3476300067E5F6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D93722C2C3476300067E5F6 /* Constants.swift */; };
 		4D93722F2C34766C0067E5F6 /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D93722E2C34766C0067E5F6 /* Bank.swift */; };
 		4D9372372C349CCC0067E5F6 /* D6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9372362C349CCC0067E5F6 /* D6.swift */; };
@@ -63,6 +105,49 @@
 		4D3E05BC2C36E15500A713E7 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 		4D3E05BE2C36E16B00A713E7 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		4D3E05C02C36E3F300A713E7 /* GameBoardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoardTests.swift; sourceTree = "<group>"; };
+		4D6F851A2C8B030C00069C3A /* PlayerSelectScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSelectScreenView.swift; sourceTree = "<group>"; };
+		4D6F851C2C8B085100069C3A /* Birdy_Note5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Birdy_Note5.wav; sourceTree = "<group>"; };
+		4D6F851D2C8B085100069C3A /* Birdy_Notification1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Birdy_Notification1.wav; sourceTree = "<group>"; };
+		4D6F851E2C8B085100069C3A /* cardPlace1.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = cardPlace1.ogg; sourceTree = "<group>"; };
+		4D6F851F2C8B085100069C3A /* cardPlace2.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = cardPlace2.ogg; sourceTree = "<group>"; };
+		4D6F85202C8B085100069C3A /* cardPlace3.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = cardPlace3.ogg; sourceTree = "<group>"; };
+		4D6F85212C8B085100069C3A /* cardSlide1.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = cardSlide1.ogg; sourceTree = "<group>"; };
+		4D6F85222C8B085100069C3A /* cardSlide1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cardSlide1.wav; sourceTree = "<group>"; };
+		4D6F85232C8B085100069C3A /* cardSlide2.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = cardSlide2.ogg; sourceTree = "<group>"; };
+		4D6F85242C8B085100069C3A /* cardSlide3.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = cardSlide3.ogg; sourceTree = "<group>"; };
+		4D6F85252C8B085100069C3A /* cardSlide8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cardSlide8.wav; sourceTree = "<group>"; };
+		4D6F85262C8B085100069C3A /* chipsCollide1.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = chipsCollide1.ogg; sourceTree = "<group>"; };
+		4D6F85272C8B085100069C3A /* chipsCollide2.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = chipsCollide2.ogg; sourceTree = "<group>"; };
+		4D6F85282C8B085100069C3A /* chipsCollide3.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = chipsCollide3.ogg; sourceTree = "<group>"; };
+		4D6F85292C8B085100069C3A /* dieShuffle1.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = dieShuffle1.ogg; sourceTree = "<group>"; };
+		4D6F852A2C8B085100069C3A /* dieThrow1.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = dieThrow1.ogg; sourceTree = "<group>"; };
+		4D6F852B2C8B085100069C3A /* dieThrow2.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = dieThrow2.ogg; sourceTree = "<group>"; };
+		4D6F852D2C8B085100069C3A /* Bank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
+		4D6F852E2C8B085100069C3A /* BigNumberFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BigNumberFormat.swift; sourceTree = "<group>"; };
+		4D6F852F2C8B085100069C3A /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		4D6F85302C8B085100069C3A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4D6F85312C8B085100069C3A /* Cursor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cursor.swift; sourceTree = "<group>"; };
+		4D6F85322C8B085100069C3A /* D6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = D6.swift; sourceTree = "<group>"; };
+		4D6F85332C8B085100069C3A /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		4D6F85342C8B085100069C3A /* EngineColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EngineColor.swift; sourceTree = "<group>"; };
+		4D6F85352C8B085100069C3A /* EY+FlatColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EY+FlatColor.swift"; sourceTree = "<group>"; };
+		4D6F85362C8B085100069C3A /* EYMarketDemands.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EYMarketDemands.swift; sourceTree = "<group>"; };
+		4D6F85372C8B085100069C3A /* GameBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameBoard.swift; sourceTree = "<group>"; };
+		4D6F85382C8B085100069C3A /* GameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		4D6F85392C8B085100069C3A /* GameSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSetting.swift; sourceTree = "<group>"; };
+		4D6F853A2C8B085100069C3A /* GameSetupManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSetupManager.swift; sourceTree = "<group>"; };
+		4D6F853B2C8B085100069C3A /* Generation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Generation.swift; sourceTree = "<group>"; };
+		4D6F853C2C8B085100069C3A /* NumberFormatCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberFormatCache.swift; sourceTree = "<group>"; };
+		4D6F853D2C8B085100069C3A /* OrderManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderManager.swift; sourceTree = "<group>"; };
+		4D6F853E2C8B085100069C3A /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		4D6F853F2C8B085100069C3A /* Sounds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sounds.swift; sourceTree = "<group>"; };
+		4D6F85402C8B085100069C3A /* werks.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = werks.txt; sourceTree = "<group>"; };
+		4D6F85422C8B085100069C3A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4D6F85442C8B085100069C3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D6F85452C8B085100069C3A /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4D6F85462C8B085100069C3A /* EngineYard.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = EngineYard.entitlements; sourceTree = "<group>"; };
+		4D6F85472C8B085100069C3A /* EngineYardApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EngineYardApp.swift; sourceTree = "<group>"; };
+		4D6F85482C8B085100069C3A /* PlayerSelectScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerSelectScreenView.swift; sourceTree = "<group>"; };
 		4D93722C2C3476300067E5F6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4D93722E2C34766C0067E5F6 /* Bank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
 		4D9372362C349CCC0067E5F6 /* D6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = D6.swift; sourceTree = "<group>"; };
@@ -123,6 +208,79 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D6F852C2C8B085100069C3A /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				4D6F851C2C8B085100069C3A /* Birdy_Note5.wav */,
+				4D6F851D2C8B085100069C3A /* Birdy_Notification1.wav */,
+				4D6F851E2C8B085100069C3A /* cardPlace1.ogg */,
+				4D6F851F2C8B085100069C3A /* cardPlace2.ogg */,
+				4D6F85202C8B085100069C3A /* cardPlace3.ogg */,
+				4D6F85212C8B085100069C3A /* cardSlide1.ogg */,
+				4D6F85222C8B085100069C3A /* cardSlide1.wav */,
+				4D6F85232C8B085100069C3A /* cardSlide2.ogg */,
+				4D6F85242C8B085100069C3A /* cardSlide3.ogg */,
+				4D6F85252C8B085100069C3A /* cardSlide8.wav */,
+				4D6F85262C8B085100069C3A /* chipsCollide1.ogg */,
+				4D6F85272C8B085100069C3A /* chipsCollide2.ogg */,
+				4D6F85282C8B085100069C3A /* chipsCollide3.ogg */,
+				4D6F85292C8B085100069C3A /* dieShuffle1.ogg */,
+				4D6F852A2C8B085100069C3A /* dieThrow1.ogg */,
+				4D6F852B2C8B085100069C3A /* dieThrow2.ogg */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		4D6F85412C8B085100069C3A /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				4D6F852C2C8B085100069C3A /* Sounds */,
+				4D6F852D2C8B085100069C3A /* Bank.swift */,
+				4D6F852E2C8B085100069C3A /* BigNumberFormat.swift */,
+				4D6F852F2C8B085100069C3A /* Card.swift */,
+				4D6F85302C8B085100069C3A /* Constants.swift */,
+				4D6F85312C8B085100069C3A /* Cursor.swift */,
+				4D6F85322C8B085100069C3A /* D6.swift */,
+				4D6F85332C8B085100069C3A /* Deck.swift */,
+				4D6F85342C8B085100069C3A /* EngineColor.swift */,
+				4D6F85352C8B085100069C3A /* EY+FlatColor.swift */,
+				4D6F85362C8B085100069C3A /* EYMarketDemands.swift */,
+				4D6F85372C8B085100069C3A /* GameBoard.swift */,
+				4D6F85382C8B085100069C3A /* GameModel.swift */,
+				4D6F85392C8B085100069C3A /* GameSetting.swift */,
+				4D6F853A2C8B085100069C3A /* GameSetupManager.swift */,
+				4D6F853B2C8B085100069C3A /* Generation.swift */,
+				4D6F853C2C8B085100069C3A /* NumberFormatCache.swift */,
+				4D6F853D2C8B085100069C3A /* OrderManager.swift */,
+				4D6F853E2C8B085100069C3A /* Player.swift */,
+				4D6F853F2C8B085100069C3A /* Sounds.swift */,
+				4D6F85402C8B085100069C3A /* werks.txt */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		4D6F85432C8B085100069C3A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4D6F85422C8B085100069C3A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4D6F85492C8B085100069C3A /* EngineYard */ = {
+			isa = PBXGroup;
+			children = (
+				4D6F85412C8B085100069C3A /* Game */,
+				4D6F85432C8B085100069C3A /* Preview Content */,
+				4D6F85442C8B085100069C3A /* Assets.xcassets */,
+				4D6F85452C8B085100069C3A /* ContentView.swift */,
+				4D6F85462C8B085100069C3A /* EngineYard.entitlements */,
+				4D6F85472C8B085100069C3A /* EngineYardApp.swift */,
+				4D6F85482C8B085100069C3A /* PlayerSelectScreenView.swift */,
+			);
+			name = EngineYard;
+			sourceTree = "<group>";
+		};
 		4DEC4A612C34274200753C5C = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +305,8 @@
 				4DEC4A9A2C34295200753C5C /* Game */,
 				4DEC4A6D2C34274200753C5C /* EngineYardApp.swift */,
 				4DEC4A6F2C34274200753C5C /* ContentView.swift */,
+				4D6F851A2C8B030C00069C3A /* PlayerSelectScreenView.swift */,
+				4D6F85492C8B085100069C3A /* EngineYard */,
 				4DEC4A732C34274300753C5C /* Assets.xcassets */,
 				4DEC4A752C34274300753C5C /* EngineYard.entitlements */,
 				4DEC4A762C34274300753C5C /* Preview Content */,
@@ -302,23 +462,42 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DEC4ABE2C342AAF00753C5C /* cardSlide1.ogg in Resources */,
+				4D6F854A2C8B085100069C3A /* Birdy_Note5.wav in Resources */,
 				4DEC4AB32C342AAF00753C5C /* chipsCollide1.ogg in Resources */,
 				4DEC4AB12C342AAF00753C5C /* dieThrow2.ogg in Resources */,
+				4D6F85582C8B085100069C3A /* dieThrow1.ogg in Resources */,
 				4DEC4AB62C342AAF00753C5C /* cardPlace1.ogg in Resources */,
+				4D6F854C2C8B085100069C3A /* cardPlace1.ogg in Resources */,
 				4DEC4AB02C342AAF00753C5C /* cardPlace3.ogg in Resources */,
 				4DEC4ABF2C342AAF00753C5C /* cardSlide3.ogg in Resources */,
+				4D6F85502C8B085100069C3A /* cardSlide1.wav in Resources */,
 				4DEC4A782C34274300753C5C /* Preview Assets.xcassets in Resources */,
+				4D6F85572C8B085100069C3A /* dieShuffle1.ogg in Resources */,
 				4DEC4AB42C342AAF00753C5C /* chipsCollide3.ogg in Resources */,
+				4D6F85542C8B085100069C3A /* chipsCollide1.ogg in Resources */,
+				4D6F85562C8B085100069C3A /* chipsCollide3.ogg in Resources */,
 				4DEC4ABC2C342AAF00753C5C /* Birdy_Notification1.wav in Resources */,
 				4DEC4AB92C342AAF00753C5C /* cardSlide2.ogg in Resources */,
 				4DEC4AB22C342AAF00753C5C /* cardSlide8.wav in Resources */,
+				4D6F854F2C8B085100069C3A /* cardSlide1.ogg in Resources */,
+				4D6F856D2C8B085100069C3A /* werks.txt in Resources */,
 				4DEC4ABB2C342AAF00753C5C /* cardPlace2.ogg in Resources */,
+				4D6F85592C8B085100069C3A /* dieThrow2.ogg in Resources */,
 				4DEC4ABD2C342AAF00753C5C /* dieShuffle1.ogg in Resources */,
 				4DEC4AB82C342AAF00753C5C /* chipsCollide2.ogg in Resources */,
+				4D6F85512C8B085100069C3A /* cardSlide2.ogg in Resources */,
 				4DEC4A742C34274300753C5C /* Assets.xcassets in Resources */,
+				4D6F85552C8B085100069C3A /* chipsCollide2.ogg in Resources */,
+				4D6F854B2C8B085100069C3A /* Birdy_Notification1.wav in Resources */,
+				4D6F856E2C8B085100069C3A /* Preview Assets.xcassets in Resources */,
+				4D6F85532C8B085100069C3A /* cardSlide8.wav in Resources */,
+				4D6F856F2C8B085100069C3A /* Assets.xcassets in Resources */,
 				4DEC4ABA2C342AAF00753C5C /* Birdy_Note5.wav in Resources */,
 				4DEC4AB72C342AAF00753C5C /* cardSlide1.wav in Resources */,
+				4D6F85522C8B085100069C3A /* cardSlide3.ogg in Resources */,
+				4D6F854D2C8B085100069C3A /* cardPlace2.ogg in Resources */,
 				4DEC4AB52C342AAF00753C5C /* dieThrow1.ogg in Resources */,
+				4D6F854E2C8B085100069C3A /* cardPlace3.ogg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,20 +519,43 @@
 				4D93722D2C3476300067E5F6 /* Constants.swift in Sources */,
 				4DDF390B2C35FD1800F77FB2 /* NumberFormatCache.swift in Sources */,
 				4DEC4A9E2C342A5A00753C5C /* EngineColor.swift in Sources */,
+				4D6F85662C8B085100069C3A /* GameSetting.swift in Sources */,
 				4DDDE27D2C372F8900C2C6BE /* GameSetupManager.swift in Sources */,
+				4D6F85652C8B085100069C3A /* GameModel.swift in Sources */,
+				4D6F85722C8B085100069C3A /* PlayerSelectScreenView.swift in Sources */,
+				4D6F85682C8B085100069C3A /* Generation.swift in Sources */,
+				4D6F855E2C8B085100069C3A /* Cursor.swift in Sources */,
 				4D9372372C349CCC0067E5F6 /* D6.swift in Sources */,
+				4D6F85612C8B085100069C3A /* EngineColor.swift in Sources */,
+				4D6F856C2C8B085100069C3A /* Sounds.swift in Sources */,
+				4D6F85622C8B085100069C3A /* EY+FlatColor.swift in Sources */,
+				4D6F85712C8B085100069C3A /* EngineYardApp.swift in Sources */,
+				4D6F85632C8B085100069C3A /* EYMarketDemands.swift in Sources */,
+				4D6F855D2C8B085100069C3A /* Constants.swift in Sources */,
+				4D6F851B2C8B030C00069C3A /* PlayerSelectScreenView.swift in Sources */,
 				4DDDE27F2C374D5500C2C6BE /* OrderManager.swift in Sources */,
 				4DEC4AC12C342AD900753C5C /* Sounds.swift in Sources */,
 				4DEC4ACB2C342CC400753C5C /* GameBoard.swift in Sources */,
 				4DEC4ACD2C342CFD00753C5C /* GameSetting.swift in Sources */,
+				4D6F855B2C8B085100069C3A /* BigNumberFormat.swift in Sources */,
 				4DEC4AD32C34300B00753C5C /* GameModel.swift in Sources */,
 				4DEC4A9C2C34296C00753C5C /* Generation.swift in Sources */,
+				4D6F85702C8B085100069C3A /* ContentView.swift in Sources */,
 				4D93722F2C34766C0067E5F6 /* Bank.swift in Sources */,
 				4DDF390D2C35FD6F00F77FB2 /* EY+FlatColor.swift in Sources */,
+				4D6F856A2C8B085100069C3A /* OrderManager.swift in Sources */,
 				4D3E05BD2C36E15500A713E7 /* Deck.swift in Sources */,
+				4D6F85642C8B085100069C3A /* GameBoard.swift in Sources */,
 				4DEC4AD12C342FBA00753C5C /* Player.swift in Sources */,
+				4D6F85672C8B085100069C3A /* GameSetupManager.swift in Sources */,
+				4D6F855A2C8B085100069C3A /* Bank.swift in Sources */,
 				4DEC4A6E2C34274200753C5C /* EngineYardApp.swift in Sources */,
+				4D6F85602C8B085100069C3A /* Deck.swift in Sources */,
 				4D3E05BF2C36E16B00A713E7 /* Card.swift in Sources */,
+				4D6F85692C8B085100069C3A /* NumberFormatCache.swift in Sources */,
+				4D6F855F2C8B085100069C3A /* D6.swift in Sources */,
+				4D6F855C2C8B085100069C3A /* Card.swift in Sources */,
+				4D6F856B2C8B085100069C3A /* Player.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
