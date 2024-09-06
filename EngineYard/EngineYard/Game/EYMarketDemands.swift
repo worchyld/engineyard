@@ -28,21 +28,21 @@ struct MarketDemands {
         print("Market demands complete")
     }
     
-    private func getExistingGenerations(for color: LocomotiveColor) -> [Generation] {
+    private func getExistingGenerations(for color: EngineColor) -> [Generation] {
         return gameBoard.spaces
             .filter { $0.locomotive.color == color }
             .map { $0.locomotive.generation }
             .sorted()
     }
     
-    private mutating func handleZeroGenerations(color: LocomotiveColor) {
+    private mutating func handleZeroGenerations(color: EngineColor) {
         if let newLocomotive = deck.first(where: { $0.color == color }) {
             deck.removeAll { $0.color == color && $0.generation == newLocomotive.generation }
             gameBoard.addLocomotive(newLocomotive)
         }
     }
     
-    private mutating func handleOneGeneration(color: LocomotiveColor, generation: Generation) {
+    private mutating func handleOneGeneration(color: EngineColor, generation: Generation) {
         let dice = GKRandomDistribution.d6()
         let roll = dice.nextInt()
         
@@ -54,7 +54,7 @@ struct MarketDemands {
         }
     }
     
-    private mutating func handleTwoGenerations(color: LocomotiveColor, generations: [Generation]) {
+    private mutating func handleTwoGenerations(color: EngineColor, generations: [Generation]) {
         let dice = GKRandomDistribution.d6()
         let roll = dice.nextInt()
         
@@ -68,7 +68,7 @@ struct MarketDemands {
         }
     }
     
-    private mutating func handleThreeGenerations(color: LocomotiveColor, generations: [Generation]) {
+    private mutating func handleThreeGenerations(color: EngineColor, generations: [Generation]) {
         let dice = GKRandomDistribution.d6()
         let roll = dice.nextInt()
         
@@ -90,7 +90,7 @@ extension GameBoard {
         spaces.append(LocomotiveSpace(locomotive: locomotive, cards: 4))
     }
     
-    mutating func removeLowestGeneration(color: LocomotiveColor) {
+    mutating func removeLowestGeneration(color: EngineColorc) {
         if let lowestIndex = spaces.enumerated()
             .filter({ $0.element.locomotive.color == color })
             .min(by: { $0.element.locomotive.generation.rawValue < $1.element.locomotive.generation.rawValue })?
