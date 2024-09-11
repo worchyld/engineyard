@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D3D1BD22C921D1A00915C43 /* TurnOrderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3D1BD12C921D1A00915C43 /* TurnOrderManager.swift */; };
 		4D3E05BD2C36E15500A713E7 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3E05BC2C36E15500A713E7 /* Deck.swift */; };
 		4D3E05BF2C36E16B00A713E7 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3E05BE2C36E16B00A713E7 /* Card.swift */; };
 		4D3E05C12C36E3F300A713E7 /* GameBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3E05C02C36E3F300A713E7 /* GameBoardTests.swift */; };
@@ -102,6 +103,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D3D1BD12C921D1A00915C43 /* TurnOrderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurnOrderManager.swift; sourceTree = "<group>"; };
 		4D3E05BC2C36E15500A713E7 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 		4D3E05BE2C36E16B00A713E7 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		4D3E05C02C36E3F300A713E7 /* GameBoardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoardTests.swift; sourceTree = "<group>"; };
@@ -353,6 +355,7 @@
 				4D93722E2C34766C0067E5F6 /* Bank.swift */,
 				4DDDE27C2C372F8900C2C6BE /* GameSetupManager.swift */,
 				4DDDE27E2C374D5500C2C6BE /* OrderManager.swift */,
+				4D3D1BD12C921D1A00915C43 /* TurnOrderManager.swift */,
 			);
 			path = Game;
 			sourceTree = "<group>";
@@ -520,6 +523,7 @@
 				4DDF390B2C35FD1800F77FB2 /* NumberFormatCache.swift in Sources */,
 				4DEC4A9E2C342A5A00753C5C /* EngineColor.swift in Sources */,
 				4D6F85662C8B085100069C3A /* GameSetting.swift in Sources */,
+				4D3D1BD22C921D1A00915C43 /* TurnOrderManager.swift in Sources */,
 				4DDDE27D2C372F8900C2C6BE /* GameSetupManager.swift in Sources */,
 				4D6F85652C8B085100069C3A /* GameModel.swift in Sources */,
 				4D6F85722C8B085100069C3A /* PlayerSelectScreenView.swift in Sources */,
