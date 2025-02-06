@@ -2,10 +2,11 @@
 //  EngineYardTests.swift
 //  EngineYardTests
 //
-//  Created by Amarjit on 02/07/2024.
+//  Created by Amarjit on 06/02/2025.
 //
 
 import XCTest
+@testable import EngineYard
 
 final class EngineYardTests: XCTestCase {
 
@@ -27,7 +28,7 @@ final class EngineYardTests: XCTestCase {
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
-        measure {
+        self.measure {
             // Put the code you want to measure the time of here.
         }
     }
