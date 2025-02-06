@@ -2,11 +2,10 @@
 //  EngineYardApp.swift
 //  EngineYard
 //
-//  Created by Amarjit on 02/07/2024.
+//  Created by Amarjit on 06/02/2025.
 //
 
 import SwiftUI
-import SwiftData
 
 @main
 struct EngineYardApp: App {

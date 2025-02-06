@@ -2,7 +2,7 @@
 //  EngineYardUITestsLaunchTests.swift
 //  EngineYardUITests
 //
-//  Created by Amarjit on 02/07/2024.
+//  Created by Amarjit on 06/02/2025.
 //
 
 import XCTest
@@ -17,6 +17,7 @@ final class EngineYardUITestsLaunchTests: XCTestCase {
         continueAfterFailure = false
     }
 
+    @MainActor
     func testLaunch() throws {
         let app = XCUIApplication()
         app.launch()
